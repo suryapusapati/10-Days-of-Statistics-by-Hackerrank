@@ -14,4 +14,4 @@ def norm(x, mean, std):
 mu_ = tic * mu
 std_ = math.sqrt(tic) * std
 
-print(round(norm(250, mu_, std_), 4))
+print(round(norm(max_tic, mu_, std_), 4))
