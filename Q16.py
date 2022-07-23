@@ -1,5 +1,4 @@
 # Day 6: The Central Limit Theorem III
-import math
 
 # read inputs
 sample = int(input())
@@ -9,7 +8,7 @@ inte = float(input())
 z = float(input())
 
 # lower limit
-print(round(mu - z*(std/math.sqrt(sample)), 2))
+print(round(mu - z*(std/(sample)**0.5), 2))
 
 # higher limit
-print(round(mu + z*(std/math.sqrt(sample)), 2))
+print(round(mu + z*(std/(sample)**0.5), 2))
