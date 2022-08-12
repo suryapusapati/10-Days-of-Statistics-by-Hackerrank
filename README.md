@@ -40,9 +40,11 @@ $$X = \textrm{ordered list of values in data set}$$
 
 $$mode = \textrm{a number that appears most frequently in a data set}$$
 
-```python:blob/main/Q01.py
+```python:/main/Q01.py
+
 
 ```
+
 
 ```python
 N = int(input())
