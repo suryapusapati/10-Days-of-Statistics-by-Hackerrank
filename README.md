@@ -40,7 +40,7 @@ $$X = \textrm{ordered list of values in data set}$$
 
 $$mode = \textrm{a number that appears most frequently in a data set}$$
 
-```python:Q01.py
+```python:blob/main/Q01.py
 
 ```
 
