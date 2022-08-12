@@ -41,7 +41,7 @@ $$X = \textrm{ordered list of values in data set}$$
 
 $$mode = \textrm{a number that appears most frequently in a data set}$$
 
-[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&style=flat-square&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q01.py)
+[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q01.py)
 
 ```python
 N = int(input())
@@ -82,7 +82,7 @@ if N == len(sample):
 
 $$\textrm{Weighted Mean} = m_w = {\sum_{i=1}^n (x_i \times w_i)\over \sum_{i=1}^n w_i}$$
 
-[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&style=flat-square&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q02.py)
+[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q02.py)
 
 ```python
 def weightedMean(X, W):
@@ -114,7 +114,7 @@ $$X = \textrm{ordered list of values in data set}\\
 X_i^j  = \textrm{range of X values in between i and j}\\
 whereas\; i < j,\; 1 \leq i \leq n,\; 1 \leq j \leq n$$
 
-[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&style=flat-square&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q03.py)
+[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q03.py)
 
 ```python
 import os
@@ -152,7 +152,7 @@ if __name__ == '__main__':
 
 $$\textrm{Standard Deviation} = \sigma = \sqrt{\sum_{i=1}^n (x_i - \mu)^2\over n}$$
 
-[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&style=flat-square&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q04.py)
+[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q04.py)
 
 ```python
 def mean(arr):
@@ -180,7 +180,7 @@ if __name__ == '__main__':
 
 $$\textrm{Interquartile Range} = Q3 - Q1$$
 
-[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&style=flat-square&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q05.py)
+[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q05.py)
 
 ```python
 def median(arr):
@@ -216,7 +216,7 @@ $$b(x,n,p) ={n! \over x!(n-x)!} \cdot p^x \cdot q^{(n-x)}$$
 
 $$b(x \geq r, n, p) = \sum_{i=r}^n b(x=i,n,p)$$
 
-[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&style=flat-square&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q06.py)
+[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q06.py)
 
 ```python
 p1, n = map(float, input().split())
@@ -247,7 +247,7 @@ print(round(sum([bino(i, n, gap) for i in range(x, n+1)]), 3))
 
 $$P(i < x \leq j)= b(i \leq x \leq j, n, p) = \sum_{i=r}^j b(x=i,n,p)$$
 
-[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&style=flat-square&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q07.py)
+[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q07.py)
 
 ```python
 p, n = map(int, input().split())
@@ -287,7 +287,7 @@ $$g(n,p) = q^{n-1} \cdot p$$
 
 $$whereas,\;q = 1-p$$
 
-[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&style=flat-square&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q08.py)
+[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q08.py)
 
 ```python
 p1, p2 = map(int, input().split())
@@ -306,7 +306,7 @@ print(geo(p0, p))
 
 $$P(x \leq j)= g(n \leq j, p) = \sum_{i=1}^j g(n=i,p)$$
 
-[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&style=flat-square&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q09.py)
+[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q09.py)
 
 ```python
 p1, p2 = map(int, input().split())
@@ -325,7 +325,7 @@ print(geo(p0, p))
 
 $$P(k, \lambda) = {\lambda^k e^{-\lambda}\over k!}$$
 
-[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&style=flat-square&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q10.py)
+[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q10.py)
 
 ```python
 from math import exp
@@ -353,7 +353,7 @@ print(pois(X, mean))
 
 $$E[X^2] = \lambda + \lambda^2$$
 
-[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&style=flat-square&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q11.py)
+[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q11.py)
 
 ```python
 X, Y = map(float, input().split())
@@ -372,7 +372,7 @@ $$P(X \leq x) = F_X(x) = {1\over2}\Big(1 + erf\Big({x-\mu\over{\sigma \sqrt2}}\B
 
 $$P(a \leq X \leq b) = F_X(b) - F_X(a)$$
 
-[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&style=flat-square&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q12.py)
+[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q12.py)
 
 ```python
 from math import exp, sqrt, pi, erf
@@ -407,7 +407,7 @@ $$P(X \leq x) = F_X(x)$$
 
 $$P(X > x) = 1 - P(X \leq x)= 1 - F_X(x)$$
 
-[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&style=flat-square&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q13.py)
+[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q13.py)
 
 ```python
 from math import sqrt, erf
@@ -439,7 +439,7 @@ $$\sigma^\prime = \sqrt n \times \sigma$$
 
 $$F_X(x, \mu^\prime, \sigma^\prime) =  {1\over2}\Big(1 + erf\Big({x-\mu^\prime\over{\sigma^\prime \sqrt2}}\Big)\Big)$$
 
-[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&style=flat-square&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q14.py)
+[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q14.py)
 
 ```python
 from math import sqrt, erf
@@ -469,7 +469,7 @@ $$\sigma^\prime = \sqrt n \times \sigma$$
 
 $$F_X(x, \mu^\prime, \sigma^\prime) =  {1\over2}\Big(1 + erf\Big({x-\mu^\prime\over{\sigma^\prime \sqrt2}}\Big)\Big)$$
 
-[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&style=flat-square&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q15.py)
+[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q15.py)
 
 ```python
 from math import sqrt, erf
@@ -495,7 +495,7 @@ print(round(norm(max_tic, mu_, std_), 4))
 
 $$\textrm{Confidence Interval} = \bar x \pm z {\sigma\over\sqrt n}$$
 
-[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&style=flat-square&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q16.py)
+[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q16.py)
 
 ```python
 # read inputs
@@ -521,7 +521,7 @@ $$\sigma_X = \sqrt{\sum_{i=1}^n (x_i - \mu)^2\over n}, similarly\;\sigma_Y$$
 
 $$\rho_{X,Y} = {\Sigma(x_i-\mu_X)\cdot(y_i-\mu_Y)\over{n\cdot \sigma_X\cdot \sigma_Y}}$$
 
-[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&style=flat-square&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q17.py)
+[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q17.py)
 
 ```python
 # Read inputs 
@@ -570,7 +570,7 @@ $$1\leq r_x,r_y \leq N$$
 
 $$r_{xy} = 1-{6\Sigma(r_x - r_y)^2\over{N(N^2-1)}}$$
 
-[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&style=flat-square&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q18.py)
+[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q18.py)
 
 ```python
 # Read inputs
@@ -604,7 +604,7 @@ $$b = {\Sigma(x_i-\mu_X)\cdot(y_i-\mu_Y)\over{n\cdot \sigma_X^2}}$$
 
 $$\hat{Y} = a + bX$$
 
-[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&style=flat-square&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q19.py)
+[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q19.py)
 
 ```python
 # Read inputs into array
@@ -650,7 +650,7 @@ liner(X, Y, 80)
 
 ### Day 9: Multiple Linear Regression
 
-[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&style=flat-square&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q20.py)
+[![github](https://img.shields.io/badge/-GitHub-F7DF1E?logo=python&logoColor=1f425f)](https://github.com/suryapusapati/10-Days-of-Statistics-by-Hackerrank/blob/main/code/Q20.py)
 
 *Working on a bug. Will be posted soon.*
 <br/><br/>
