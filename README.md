@@ -1,3 +1,9 @@
+---
+layout: default
+title: "10 Days of Statistics"
+---
+
+
 <p><img src="https://img.shields.io/badge/Made%20with-Markdown-1f45f.svg" alt="mardown" /> <img src="https://img.shields.io/badge/Made%20with-Python-blue?&logo=Python" alt="python" /> <img src="https://img.shields.io/badge/Made%20with-MathJax-orange.svg" alt="mathjax" /></p>
 
 For this challenge I used python programming to finish the challenge. To challenge myself I have not imported any python packages other than essential math functions `from math import exp, sqrt, pi, erf`. There are some multiple choice questions in the challenge, But in this blog I have only included the solutions of coding questions. TO make learning seamless I have added the statistical equation used to solve the problem. Happy learning!!
