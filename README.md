@@ -40,6 +40,10 @@ $$X = \textrm{ordered list of values in data set}$$
 
 $$mode = \textrm{a number that appears most frequently in a data set}$$
 
+```python:Q01.py
+
+```
+
 ```python
 N = int(input())
 sample = sorted(list(map(float, input().strip().split())))
