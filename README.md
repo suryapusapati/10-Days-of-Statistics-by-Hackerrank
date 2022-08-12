@@ -1,8 +1,6 @@
----
-layout: default
-title: "10 Days of Statistics"
----
-
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 
 <p><img src="https://img.shields.io/badge/Made%20with-Markdown-1f45f.svg" alt="mardown" /> <img src="https://img.shields.io/badge/Made%20with-Python-blue?&logo=Python" alt="python" /> <img src="https://img.shields.io/badge/Made%20with-MathJax-orange.svg" alt="mathjax" /></p>
 
